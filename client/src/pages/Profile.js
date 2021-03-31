@@ -35,6 +35,10 @@ const Profile = () => {
   return (
     <div className="flex-row justify-space-between mb-3">
       <div className="col-12 mb-3 col-lg-8">
+      <h2 className="bg-dark text-secondary p-3 display-inline-block">
+        Viewing {userParam ? `${user.username}'s` : "your"} profile.
+      </h2>
+      
         <ThoughtList
           thoughts={user.thoughts}
           title={`${user.username}'s thoughts...`}
@@ -47,9 +51,6 @@ const Profile = () => {
           friends={user.friends}
         />
       </div>
-      <h2 className="bg-dark text-secondary p-3 display-inline-block">
-        Viewing {userParam ? `${user.username}'s` : "your"} profile.
-      </h2>
     </div>
   );
 };
