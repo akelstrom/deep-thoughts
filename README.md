@@ -10,11 +10,31 @@ Finally, I implemented an alternative authentication solution known as a JSON We
 
 ## Usage 
 
+![Screenshot of deep-thoughts](deep-thoughts.png)
+
 Social Media MERN app with the following features:
 * A user can sign up and log in to the application.
-
 * A user can post their thoughts and view other user's thoughts.
-
 * A user can react, or reply, to a thought.
-
 * A user can befriend other users.
+
+## Tech Used
+* MERN Stack
+    * MongoDB
+    * Express.js
+    * React.js
+    * Node.js
+* JavaScript
+* React Router
+* Mongoose
+* GraphQL
+* JSON Web Tokens
+* JSX
+* CSS
+
+## Credits 
+
+Big thanks to the Upenn LPS Coding Bootcamp instructional team for all their support!
+
+## Questions
+If you have questions, feel free to reach out by email at [akelstrom@gmail.com](mailto:akelstrom@gmail.com).
