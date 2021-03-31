@@ -1,0 +1,30 @@
+{
+  "name": "deep-thoughts",
+  "version": "1.0.0",
+  "description": "## Description Social Media MERN app with the following features: * A user can sign up and log in to the application.",
+  "main": "server/server.js",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "cd server && npm start",
+    "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akelstrom/deep-thoughts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akelstrom/deep-thoughts/issues"
+  },
+  "homepage": "https://github.com/akelstrom/deep-thoughts#readme"
+}
