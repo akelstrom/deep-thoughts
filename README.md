@@ -10,7 +10,7 @@ Finally, I implemented an alternative authentication solution known as a JSON We
 
 ## Usage 
 
-Visit my site [here](https://deep-thoughts13.herokuapp.com/)
+Visit Deep Thoughts [here](https://deep-thoughts13.herokuapp.com/)
 
 ![Screenshot of deep-thoughts](deep-thoughts.png)
 
