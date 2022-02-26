@@ -10,6 +10,8 @@ Finally, I implemented an alternative authentication solution known as a JSON We
 
 ## Usage 
 
+Visit Deep Thoughts [here](https://deep-thoughts13.herokuapp.com/)
+
 ![Screenshot of deep-thoughts](deep-thoughts.png)
 
 Social Media MERN app with the following features:
